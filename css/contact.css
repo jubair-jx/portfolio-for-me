@@ -1,0 +1,125 @@
+.me_part{
+    text-align: center;
+    background-color: #2d3950;
+    padding: 20px 30px;
+    margin-top: 30px;
+
+}
+.me_part h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+
+/*======================== Menu Part====================*/
+header{
+    background-color: #262933;
+    display: flex;
+    padding: 30px 10px;
+    justify-content: space-around; 
+    
+}
+.logo h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+header .menu{
+    justify-content: left;
+    margin-left: 100px;
+}
+header .menu ul li a{
+    color: #c2c3c5;
+    text-decoration: none;
+    padding: 14px;
+    font-size: 16px;
+    transition: .3s;
+}
+header .menu ul li a:hover{
+    color: #fff;
+}
+/*------------------Contact part----------------------*/
+#contact{ 
+    background-image: url(../images/footer-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 90px;
+}
+#contact .contact_title{
+   text-align: center;
+   margin-bottom: 30px;
+   color: #fff;
+}
+#contact .contact_title p{
+    font-size: 12px;
+}
+#contact .overlay{
+  background-color: rgba(45, 57, 80, .9);
+  padding: 100px 20px;
+  
+}
+#contact .contact_form .form-group input,
+#contact .contact_form .form-group textarea{
+    background-color: transparent;
+    border: 1px solid #999999;
+    color: white;
+}
+#contact .contact_form .form_bottom{
+    overflow: hidden;
+}
+#contact .contact_form .form_bottom .form_left{
+    float: left;
+    color: #fff;
+}
+#contact .contact_form .form_bottom .form_right button{
+    border: 1px solid #15a4fa;
+    padding: 2px 28px;
+    border-radius: 2px;
+    color: #fff;
+    transition: .5s;
+    float: right;
+    background-color:#2d3950;
+}
+#contact .contact_form .form_bottom .form_right button:hover{
+    background-color: #15a4fa;
+    border-radius: 2px;
+}
+.footer{
+    height: 90px;
+    width: 100%;
+    background-color: #262933;
+    margin-top: 100px;
+    display: flex;
+}
+.footer .footer_left p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 38px;
+    font-size: 13px;
+}
+.footer .footer_right{
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.footer .footer_right ul li a{
+    height: 32px;
+    width: 32px;
+    float: right;
+    margin-right: 25px;
+    color: #262933;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    
+}
+/*------------------Contact part----------------------*/

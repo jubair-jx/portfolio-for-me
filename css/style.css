@@ -1,0 +1,375 @@
+/*----------Common CSS-----------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/*----------Common CSS-----------*/
+/*=============== Header part start=================*/
+header{
+    background-color: #262933;
+    display: flex;
+    padding: 30px 10px;
+    justify-content: space-around; 
+}
+.logo h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+.menu ul li a{
+    color: #c2c3c5;
+    padding: 14px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s;
+}
+.menu_icon{
+    justify-content: left;
+    margin-left: 200px;
+}
+.menu_icon ul li a{
+    margin-right: 20px;
+    display: inline-block;
+    color: #262933;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 1px #ffffff solid;
+    border-radius: 50%;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+.menu ul li a:hover{
+    color: #ffffff;
+}
+/*=============== Header part end=================*/
+/*================ Bannner part start=============*/
+.banner{
+    background-image: url(../images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.banner_part h2{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+}
+.banner_part h2 span{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+.banner .layer_part{
+    background-image: url(../images/layer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+}
+.banner_part .layer_part{
+    text-align: center;
+}
+.banner_part .layer_part .layer_text h2{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 100px;   
+}
+.banner_part .layer_part .layer_text a{
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 90px;
+    color: #42a8ea;
+}
+.banner_part .layer_part .layer_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    width: 437px;
+    margin-left: 210px;
+    margin-top: 25px;
+    color: white;
+}
+.banner_part .layer_part .layer_text .layer_button{
+   margin-top: 25px; 
+   margin-right: 5px;
+}
+.banner_part .layer_part .layer_text .layer_button a{
+    height: 50px;
+    width: 50x;
+    border: 1px solid #5b6773;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    transition: .5s;
+}
+.banner_part .layer_part .layer_text .layer_button a:hover{
+    background-color: #43b5fd;
+    color: #fff;
+}
+.banner_part .layer_part .layer_img{
+    height: 100px;
+    width: 100%;
+}
+.banner_part .layer_part .layer_img img{
+    margin-left: 800px;
+    margin-bottom: 2000px;
+    position: relative;
+    bottom: 225px;
+    left: 60px;
+    border: 5px solid #fff; 
+    transition: .4s;
+}
+.banner_part .layer_part .layer_img img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.banner_text{
+    display: flex;
+    margin-top: 250px;
+    color: #a0a4ac;
+}
+.banner_text h3{
+    margin-left: 175px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 12px;
+    font-size: 24px;
+}
+.banner_text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text p span{
+    color: #43b5fd;
+}
+.st_part{
+    background-image: url(../images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+    margin-top: 20px;  
+}
+.st_part .st_main{
+    display: flex;
+}
+.st_part .st_main .st_icon i{
+    margin-top: 70px;
+    color: #fff;
+    margin-left: 190px;
+    font-size: 45px;
+}
+.st_part .st_main h2{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 125px;
+}
+.st_part .st_main p{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 11px;
+    margin-top: 20px;
+    width: 250px;
+    align-items: center;
+    margin-left: 115px;
+}
+/*================ Bannner part end============*/
+/*================ Project part Start============*/
+.project_text{
+    margin-top: 35px;
+}
+.project_text h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #85868a;
+}
+.project_text p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #85868a;
+    font-size: 14px;
+}
+.project_item{
+    display: flex;
+    margin-top: 30px;
+}
+.project_item .project_img img{
+    transition: .3s;
+}
+.project_item .project_img img:hover{
+    transform: scale(1.1);
+    z-index: 3;
+}
+/*================ Project part end============*/
+/*================ Testimonial part Start============*/
+.test_text{
+    margin-top: 50px;
+}
+.test_text h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #85868a;
+}
+.test_text p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #85868a;
+    font-size: 14px;
+}
+.test_item{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.test_item .test_text2 h3{
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: #2b9fe8;
+}
+.test_item .test_text2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    color: #515d66;
+    margin-top: 5px;
+}
+.test_item .test_text2 span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #99a2a8;
+    margin-bottom: 5px;
+}
+/*================ Testimonial part end============*/
+/*================ Footer part start============*/
+#contact{ 
+    background-image: url(../images/footer-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 90px;
+}
+#contact .contact_title{
+   text-align: center;
+   margin-bottom: 30px;
+   color: #fff;
+}
+#contact .contact_title p{
+    font-size: 12px;
+}
+#contact .overlay{
+  background-color: rgba(45, 57, 80, .9);
+  padding: 100px 20px;
+  
+}
+#contact .contact_form .form-group input,
+#contact .contact_form .form-group textarea{
+    background-color: transparent;
+    border: 1px solid #999999;
+    color: white;
+}
+#contact .contact_form .form_bottom{
+    overflow: hidden;
+}
+#contact .contact_form .form_bottom .form_left{
+    float: left;
+    color: #fff;
+}
+#contact .contact_form .form_bottom .form_right button{
+    border: 1px solid #15a4fa;
+    padding: 2px 28px;
+    border-radius: 2px;
+    color: #fff;
+    transition: .5s;
+    float: right;
+    background-color:#2d3950;
+}
+#contact .contact_form .form_bottom .form_right button:hover{
+    background-color: #15a4fa;
+    border-radius: 2px;
+}
+.footer{
+    height: 90px;
+    width: 100%;
+    background-color: #262933;
+    margin-top: 100px;
+    display: flex;
+}
+.footer .footer_left p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 38px;
+    font-size: 13px;
+}
+.footer .footer_left p span{
+    color: rgb(236, 196, 15);
+}
+.footer .footer_right{
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.footer .footer_right ul li a{
+    height: 32px;
+    width: 32px;
+    float: right;
+    margin-right: 25px;
+    color: #262933;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    
+}
+/*================ Footer part end============*/
+/*==============Icon Part==============*/
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: #e67e22;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 4px;
+    bottom: 50px;
+    right: 50px;
+    font-size: 22px;
+    position: fixed;
+    opacity: 0;
+}
+
+/*==============Icon Part==============*/
