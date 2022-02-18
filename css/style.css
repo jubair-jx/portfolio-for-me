@@ -16,6 +16,9 @@ header{
     display: flex;
     padding: 30px 10px;
     justify-content: space-around; 
+    position: sticky;
+    z-index: 1;
+    top: 0;
 }
 .logo h3{
     color: #ffffff;
